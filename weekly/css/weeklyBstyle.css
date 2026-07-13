@@ -1,0 +1,47 @@
+/*
+html {
+    property: value;
+}
+  */
+  
+  h1 {
+    color: navy;
+  }
+
+  .sticky {
+    position:static;
+    border: 5px solid black
+  }
+
+  .relative {
+    position:relative;
+    left: 50px;
+    border: 3px dotted #695906 
+  }
+
+  .absolute {
+    position: absolute;
+    border: 2px dashed palevioletred;
+    top: 300px;
+    left: 80px;
+  }
+
+  .after {
+    position: fixed;
+    top: 380px;
+  }
+
+  .after2 {
+    position: fixed;
+    top: 500px;
+  }
+
+  .a3 {
+    position: fixed;
+    top: 555px;
+  }
+
+  .a4 {
+    position: fixed;
+    top: 655px;
+  }

@@ -1,0 +1,14 @@
+body {
+    background: radial-gradient(circle, rgba(248,255,187,1) 0%, rgba(252,134,98,1) 40%, rgba(255,220,15,1) 100%);
+    background-attachment: fixed;
+    text-align: center;
+    color: darkred;
+}
+
+button {
+    background-color: darkred;
+}
+
+a {
+    color: gold;
+}

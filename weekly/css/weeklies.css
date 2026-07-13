@@ -1,0 +1,64 @@
+
+body {
+    background: url("../../images/diamond.gif");
+    background-size: 512px 384px;
+}
+
+.star {
+    position: absolute;
+    top: 0px;
+}
+
+.star2 {
+    position: absolute;
+    top: 300px;
+}
+
+.star3 {
+    position: absolute;
+    top: 600px;
+}
+
+.star4 {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.star5 {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}
+
+.star6 {
+    position: absolute;
+    top: 600px;
+    right: 0px;
+}
+
+p {
+    font-family: cursive;
+}
+
+a {
+    font-family: cursive;
+    font-size: 12pt;
+}
+
+button {
+    background-color: hotpink;
+    border: outset;
+}
+
+.spark {
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+
+.spark-flip {
+    position: absolute;
+    top: 300px;
+    right:500px;
+}

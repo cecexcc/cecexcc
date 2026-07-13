@@ -1,0 +1,16 @@
+pre {
+    font-family:fantasy;
+    font-size: 100px;
+    color:bisque;
+}
+
+a {
+    font-family:fantasy;
+    color:rgb(255, 23, 23);
+    font-size: x-large;
+    padding: 10px;
+}
+
+body {
+    background: linear-gradient(cyan, yellowgreen);
+}

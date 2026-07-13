@@ -1,0 +1,29 @@
+body {
+    background-image: url(./yellow.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(58, 24, 0);
+    font-size: 20pt;
+    margin: 0;
+    padding-left: 10%;
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    color: red;
+}
+
+a:hover {
+    color: rgb(58, 24, 0);
+    font-size: 18pt;
+}
+
+p:hover {
+    color:red;
+}

@@ -1,0 +1,16 @@
+body {
+    background: radial-gradient(circle, rgba(255,144,245,1) 0%, rgba(183,81,255,1) 26%, rgba(255,140,214,1) 47%, rgba(222,102,255,1) 68%, rgba(46,0,255,1) 100%);
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    font-size: 13pt;
+}
+
+button {
+    background-color: darkslateblue;
+    border: 5px ridge lightblue;
+}
+
+a {
+    color: white;
+}

@@ -1,0 +1,16 @@
+pre {
+    font-family: cursive;
+    font-size: xx-large;
+    color:slategray;
+}
+
+a {
+    font-family: cursive;
+    padding: 20px;
+    color: slategray;
+}
+
+body {
+    background-image: url("images/bedsheet.jpg");
+    background-repeat: repeat;
+}

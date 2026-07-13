@@ -1,0 +1,126 @@
+body {
+    background-image: url(../images/paintdrip1.JPG);
+    background-size: 100%;
+}
+
+p {
+    background: hotpink;
+    font-size: 24pt;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pages {
+    position: absolute;
+    list-style-type: circle;
+    top: 50%;
+    display: inline-block;
+    text-align: left;
+    background: hotpink;
+    font-size: 24pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #b70055;
+}
+
+ul li {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.centerlist {
+    text-align: center;
+}
+
+button {
+    font-size: 18pt;
+    background-color: hotpink;
+    border: outset;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+}
+
+.img {
+    position: fixed;
+    left: 13%;
+    top: 25%;
+}
+
+#sheetscap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 85%;
+    visibility: hidden;
+}
+
+#dresscap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 85%;
+    visibility: hidden;
+}
+
+#xinyicap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 85%;
+    visibility: hidden;
+}
+
+#inchildcap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 85%;
+    visibility: hidden;
+}
+
+#yellowcap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 85%;
+    visibility: hidden;
+}
+
+.star {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+}
+
+.star-flip {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.stargif {
+    position: absolute;
+    left: 22%;
+    top: 0px;
+}
+
+.stargif2 {
+    position: absolute;
+    right: 22%;
+    top: 9%;
+}

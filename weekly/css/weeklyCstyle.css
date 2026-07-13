@@ -1,0 +1,20 @@
+body {
+    background-image: radial-gradient(cornflowerblue,aqua );
+    background-attachment: fixed;
+    text-align: center;
+    border-style: inset;
+    display: inline-block;
+}
+
+.butt1 {
+    border: none;
+    background-color: powderblue;
+}
+
+.font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pad {
+    padding-top: 25px;
+}

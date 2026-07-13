@@ -1,0 +1,10 @@
+p:hover {
+    transition: all 3s;
+    opacity: 0.1;
+}
+
+#help {
+    position: absolute;
+    right: 1%;
+    cursor: pointer;
+}

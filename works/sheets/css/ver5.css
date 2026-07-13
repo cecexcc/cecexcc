@@ -1,0 +1,22 @@
+body {
+    background-image:radial-gradient(lime,aqua, aquamarine);
+    background-attachment: fixed;
+}
+
+pre {
+    color:blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    left:210px;
+    top:100px;
+    font-size: xxx-large;
+    border-style: dashed;
+    border-width: 10px;
+}
+
+a {
+    color:blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xxx-large;
+}

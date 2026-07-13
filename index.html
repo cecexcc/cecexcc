@@ -2,10 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("#help").click(function(){
+                // alert('This website serves as a collection of my interests, work, and writings. Also, as a place for experimenting. For the final, I expanded on the five variations exercise because experimenting with the pages’ styling changed the tone and mood of my writing. I wanted to play with the styling for the other writings I made for the website, which I didn’t have the time to do by the Project 1 deadline. I challenged myself to give each writing at least three variations and make one interactive. Along with the writings, I made minor changes to the rest of the site (adding motions to the home screen drawings, font changes, and adding more pictures in the gallery).');
+            // })
+            $("#weekbutt").mouseenter(function(){
+                $("#me").attr('src','./images/weekly.gif');
+            });
+            $("#weekbutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+            $("#mebutt").mouseenter(function(){
+                $("#me").attr('src','./images/aboutme.gif');
+            });
+            $("#mebutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+            $("#writebutt").mouseenter(function(){
+                $("#me").attr('src','./images/writing.gif');
+            });
+            $("#writebutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+            $("#galbutt").mouseenter(function(){
+                $("#me").attr('src','./images/gallery.gif');
+            });
+            $("#galbutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+        });
+    </script>
+    <title>cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</title>
 </head>
+
 <body>
-    
+    <!-- <img id="help" src="./images/help.png" title="what's this?"> -->
+    <img src="./images/cxchead.gif" height="150px" width="300px">
+        <!-- lol -->
+    <div id="me-standing"><img id="me" src="./images/me.gif" height="500px" width="500px"></div>
+    <div id="rug"><img src="./images/rug.png" width="500px"></div>
+    <div id="weekbutt"><a href="./weekly/weeklylist.html"><img src="./images/weekbutt.png"></a></div>
+    <div id="mebutt"><a href="./aboutme.html"><img src="./images/mebutt.png"></a></div>
+    <div id="writebutt"><a href="./writings.html"><img src="./images/writebutt.png"></a></div>
+    <div id="galbutt"><a href="./gallery.html"><img src="./images/galleybutt.png"></a></div>
+    <div id="star"><img src="./images/star.png" height="185px" width="200px"></div>
+    <div id="star-flip"><img src="./images/star-flip.png" height="170px"></div>
 </body>
 </html>

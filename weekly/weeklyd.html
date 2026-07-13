@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#box").mouseleave(function(){
+        alert('heres your alert lol');
+    })
+    $("#box2").on({
+        click: function(){
+            $(this).css("background-color", "lightpink");}
+            })
+    $("#wrongbutt").on({
+        click: function(){
+            $("#star").css("visibility", "visible");}
+        })
+    $("#wrongbutt").click(function(){
+        alert('wrong box. or not? lol')
+       })
+    $("#wrongbutt").on({
+        click: function(){
+            $(this).css("background-color", "lightpink")
+        }
+    })
+
+    })
+    </script>
+    <link rel="stylesheet" href="./css/weeklyDstyle.css">
+    <title>weekly d</title>
+</head>
+<body>
+    <div class="container">
+        <div class="backscroll"></div>
+    </div>
+    <div class="butt"><button><a href="../index.html">HOME</a></button></div>
+    <div class="butt2"><button><a href="./weeklylist.html">BACK</a></button></div>
+    <h1 id="fix">weekly d 2/13</h1>
+    <div id="box">
+        This week, we started with learning Java and experimenting with <a href="../jquery/index.html">jquery.</a>
+        <br>I would like to play more with this.
+        <br>Like if I instruct the viewer to hover their mouse over this block of text.
+        <br>A text alert comes up.
+        <br>I need to think about how I can play with this more throughout the website.
+        <br>To see the next paragraph, you need to click on the black box below.
+    </div>
+
+    <div id="box2">
+        Also this week, we started working on our websites.
+        <br>I saw the presentations of our project proposals. 
+        <br>The class has very cool ideas and picked cool references.
+        <br>Looking back on my proposal, I worry that I was too ambitious. Especially picking the aesthetic and references.
+        <br>But maybe, these ideas are doable as long as I keep working on it.
+        <br>So far, I've been having fun making the backgrounds and images/gifs used in the website.
+    </div>
+
+    <div id="wrongbutt">
+        Here's a star lol
+    </div>
+
+    <div id="star">
+        <img src="./images/star1.gif">
+    </div>
+
+    <div class="litstar">
+        <img src="./images/star1.gif" width="80px" height="80px">
+    </div>
+
+    <div class="litstar2">
+        <img src="./images/star1.gif" width="100px" height="100px">
+    </div>
+
+    <div class="litstar3">
+        <img src="./images/star1.gif" width="150px" height="150px">
+    </div>
+</body>
+</html>

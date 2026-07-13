@@ -1,0 +1,14 @@
+body {
+    background: radial-gradient(rgb(206, 0, 110),lightpink);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: cursive;
+    font-size: 10pt;
+    color: rgb(254, 223, 236);
+}
+
+button {
+    background-color: lightpink;
+    color: deeppink;
+    border: double deeppink;
+}

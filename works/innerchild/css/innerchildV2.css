@@ -1,0 +1,13 @@
+body {
+    background: lightcyan;
+}
+
+pre {
+    text-align: center;
+    color: darkslateblue;
+    font-size: 12pt;
+}
+
+div {
+    text-align: center;
+}

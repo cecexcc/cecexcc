@@ -1,0 +1,14 @@
+body {
+    background: radial-gradient(rgb(204, 0, 255),rgb(255, 168, 243));
+    background-attachment: fixed;
+    text-align: center;
+    font-family: monospace;
+    font-size: 10pt;
+    color: white;
+}
+
+button {
+    background-color: plum;
+    color: darkmagenta;
+    border: inset darkmagenta;
+}

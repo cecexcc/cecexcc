@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Jquery Ex</title>
+    <script>
+        $(document).ready(function(){
+            // $(selector).action()
+            $("button").click(function(){
+                $(".second").hide();
+            })
+
+            $("#p1").mouseleave(function(){
+                alert('mouse left p1!');
+            })
+
+            $("p").on({
+                mouseenter: function(){
+                    $(this).css("background-color", "lightgray");
+                },
+                mouseleave: function(){
+                    $(this).css("background-color", "lightblue");
+                },
+                click: function(){
+                    $(this).css("background-color", "yellow");
+                }
+            })
+
+            $("#togbutt").click(function(){
+                $("#togglepara").toggle(1000);
+            })
+        })
+        //events     mouse         keyboard       form          doc/window
+        //           click         keypress      submit             load
+        //          dblclick       keydown       change            resize
+        //          mouseenter      keyup        focus              scroll
+        //          mouseleave                    blur              unload
+    </script>
+</head>
+<body>
+    <p id="p1">Paragraph 11111111</p>
+    <p class="second">paragraph 22222222</p>
+    <p>booooooooppp boipf</p>
+    <p>ejjdjjjjjjjjjjjjjjjjjj</p>
+    <button>Hide paragraphs</button>
+    <p id="togglepara">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, suscipit facere quidem nam incidunt temporibus est, unde illo omnis vero enim eius eveniet, quae laudantium et officiis in odit quod?</p>
+    <button id="togbutt">Toggle butt</button>
+    <br>
+    <br>
+    <br>
+    <button><a href="../weekly/weeklyd.html">BACK</a></button>
+    <br>
+    <br>
+    <button><a href="../index.html">HOME</a></button>
+</body>
+</html>

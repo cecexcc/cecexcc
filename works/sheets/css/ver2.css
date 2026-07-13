@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+    opacity: 0.3;
+}
+
+.pre {
+    border-style: dotted;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 100px;
+}
+
+.pre2  {
+    border-style: dotted;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+span {
+    display: inline-block;
+}
+
+.a {
+    position: absolute;
+    left:500px;
+}
+
+.a2 {
+    position: absolute;
+    top:20px;
+    left:550px;
+}
+
+.a3 {
+    position: absolute;
+    left: 200px;
+}
+
+.a4 {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}

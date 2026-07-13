@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Futura";
+    src: url(./Futura\ Book\ font.ttf) format("truetype");
+}
+
+body {
+    background-image: url(../images/paintdrip2.JPG);
+    background-attachment: fixed;
+}
+
+button {
+    font-size: 18pt;
+    background-color: hotpink;
+    border: outset;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    border: 4px double lightpink;
+    width: 190px;
+}
+
+.gallery:hover {
+    border: 8px double white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #ff0076;
+}
+
+.gallery img {
+    width: 99%;
+    height: auto;
+}
+
+.caption {
+    font-family: "Futura";
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}

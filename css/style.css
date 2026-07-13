@@ -1,0 +1,83 @@
+/* #help {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    cursor: pointer;
+} */
+
+
+body {
+    text-align: center;
+    background-image: url(./images/radial.gif);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#me-standing {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: 70px;
+    right: 20px;
+    z-index: 3;
+}
+
+#rug {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: -400px;
+    z-index: 2;
+}
+
+#weekbutt {
+    position: fixed;
+    top: 230px;
+    left: 16%;
+    z-index: 4;
+}
+
+#mebutt {
+    position: fixed;
+    top: 480px;
+    left: 5%;
+    z-index: 5;
+}
+
+#writebutt {
+    position: fixed;
+    top: 230px;
+    left: 63%;
+    z-index: 6;
+}
+
+#galbutt {
+    position: fixed;
+    top: 480px;
+    left: 75%;
+    z-index: 7;
+}
+
+#star {
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}
+
+#star-flip {
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+/*
+html {
+    property: value;
+}
+*/

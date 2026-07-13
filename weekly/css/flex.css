@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: salmon;
+}
+
+.flex-container > div {
+    background-color: crimson;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}

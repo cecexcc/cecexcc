@@ -1,0 +1,14 @@
+body {
+    background: radial-gradient(rgba(152,42,255,1) 0%, rgba(255,41,232,1) 50%, rgba(142,45,253,1) 100%);
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: purple;
+}
+
+a {
+    color: plum;
+}

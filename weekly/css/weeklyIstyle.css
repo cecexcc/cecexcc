@@ -1,0 +1,15 @@
+body {
+    background: radial-gradient(circle, rgba(248,255,187,1) 0%, rgba(252,98,243,1) 47%, rgba(255,230,253,1) 100%);
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(43, 0, 74);
+}
+
+button {
+    background-color: hotpink;
+    border: double white;
+}
+
+a {
+    color: white;
+}

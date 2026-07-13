@@ -1,0 +1,77 @@
+body {
+    background: palegreen;
+}
+
+pre {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+}
+
+#me1 {
+    position: absolute;
+    top: 15%;
+}
+
+#me2 {
+    position: absolute;
+    top: 1%;
+    left: 15%;
+}
+
+#me3 {
+    position: absolute;
+    top: 1%;
+    left:30%;
+}
+
+#me4 {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+}
+
+#me5 {
+    position: absolute;
+    top: 1%;
+    left: 65%;
+}
+
+#me6 {
+    position: absolute;
+    top: 1%;
+    left: 80%;
+}
+
+#me7 {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+}
+
+#me8 {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+#me9 {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+}
+
+#me10 {
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+}
+
+#me11 {
+    position: absolute;
+    bottom: 5%;
+    left: 65%;
+}

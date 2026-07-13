@@ -1,0 +1,100 @@
+#help {
+    position: absolute;
+    right: 0%;
+}
+
+#help:hover {
+    cursor: pointer;
+}
+
+#hanger1 {
+    position: absolute;
+    left: 0%;
+}
+
+#hanger1:hover {
+    cursor: pointer;
+}
+
+#blacktulle {
+    position: absolute;
+    left: 0%;
+    z-index: 2;
+    visibility: hidden;
+}
+
+#seven {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    visibility: hidden;
+}
+
+#hanger2 {
+    position: absolute;
+    left: 25%;
+    visibility: hidden;
+}
+
+#hanger2:hover {
+    cursor: pointer;
+}
+
+#floral {
+    position: absolute;
+    left: 25%;
+    visibility: hidden;
+}
+
+#nine {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    visibility: hidden;
+}
+
+#hanger3 {
+    position: absolute;
+    left: 45%;
+    visibility: hidden;
+}
+
+#hanger3:hover {
+    cursor: pointer;
+}
+
+#navyblue {
+    position: absolute;
+    left: 45%;
+    visibility: hidden;
+}
+
+#ten {
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    visibility: hidden;
+}
+
+#hanger4 {
+    position: absolute;
+    left: 65%;
+    visibility: hidden;
+}
+
+#hanger4:hover {
+    cursor: pointer;
+}
+
+#teen {
+    position: absolute;
+    left: 65%;
+    visibility: hidden;
+}
+
+#fifthteen {
+    position: absolute;
+    left: 68%;
+    top: 50%;
+    visibility: hidden;
+}
